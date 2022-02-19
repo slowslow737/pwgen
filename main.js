@@ -26,5 +26,5 @@ function copyPassword() {
   navigator.clipboard.writeText(copyText.value);
 
   //   /* Alert copied text via tooltip */
-  //   alert("Copied the text: " + copyText.value);
+  alert("Copied the text: " + copyText.value);
 }
